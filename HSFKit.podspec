@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #s.license      = "MIT"
   s.license    = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "hsf" => "huangsf_ios@sina.com" }
-  s.source       = { :git => 'https://github.com/HSFAqi/HSFKit.git',:commit => "9e2149c", :tag => s.version}
+  s.source       = { :git => 'https://github.com/HSFAqi/HSFKit.git', :tag => s.version}
   s.requires_arc = true
   s.source_files = 'HSFSingleton/*'
   #s.public_header_files = 'runtime/TFRuntimeManager.h'
