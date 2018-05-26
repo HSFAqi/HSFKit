@@ -1,0 +1,20 @@
+PODS:
+  - SVProgressHUD (2.2.5)
+  - XHToast (1.4.0)
+
+DEPENDENCIES:
+  - SVProgressHUD
+  - XHToast
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SVProgressHUD
+    - XHToast
+
+SPEC CHECKSUMS:
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XHToast: 3b354766d56d9df8fef8e64387bbd25c90d71a86
+
+PODFILE CHECKSUM: ded71f048ae1fd57f297cd7a758cf52c6ba592c0
+
+COCOAPODS: 1.5.2
