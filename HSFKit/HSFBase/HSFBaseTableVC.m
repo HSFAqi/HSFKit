@@ -8,6 +8,10 @@
 
 #import "HSFBaseTableVC.h"
 
+/* Config */
+//解释一下：因为是放在pod里，所以需要引用一下，不然会报错
+#import "HSFConfig.h"
+
 //cell
 #import "HSFBaseCell.h"
 //view
@@ -79,7 +83,7 @@
         
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
-        _tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
+        _tableView.backgroundColor = k_backgroundColor_table;
         _tableView.delegate = self;
         _tableView.dataSource = self;        
         

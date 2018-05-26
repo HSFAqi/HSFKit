@@ -8,7 +8,9 @@
 
 #import "HSFBaseNavC.h"
 
-
+/* Config */
+//解释一下：因为是放在pod里，所以需要引用一下，不然会报错
+#import "HSFConfig.h"
 
 @interface HSFBaseNavC ()<UINavigationControllerDelegate>
 

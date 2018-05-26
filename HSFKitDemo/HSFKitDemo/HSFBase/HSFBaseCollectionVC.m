@@ -8,6 +8,9 @@
 
 #import "HSFBaseCollectionVC.h"
 
+/* Config */
+//解释一下：因为是放在pod里，所以需要引用一下，不然会报错
+#import "HSFConfig.h"
 //view
 #import "HSFGestureCollectionView.h"
 //item
@@ -113,6 +116,7 @@
         }else{
             _collectionView = [[UICollectionView alloc]initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
         }
+        _collectionView.backgroundColor = k_backgroundColor_table;
     }
     return _collectionView;
 }
