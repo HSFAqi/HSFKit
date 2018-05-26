@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "hsf" => "huangsf_ios@sina.com" }
   s.source       = { :git => 'https://github.com/HSFAqi/HSFKit.git', :tag => s.version}
   s.requires_arc = true
+  s.dependency = 'SVProgressHUD' , 'XHToast'
   s.source_files = 'HSFKit/**/*.{h,m}'
   s.public_header_files = 'HSFKit/**/*.h'
  
