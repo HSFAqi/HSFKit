@@ -16,7 +16,7 @@
 #import "HSFConfig.h"
 
 /* Base */
-
+#import "HSFBase.h"
 
 
 

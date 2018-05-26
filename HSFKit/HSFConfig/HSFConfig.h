@@ -30,5 +30,8 @@
 /* 用户相关 */
 #import "HSFConfig_user.h"
 
+/* pod */
+#import "HSFConfig_pod.h"
+
 
 #endif /* HSFConfig_h */

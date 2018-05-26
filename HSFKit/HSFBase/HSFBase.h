@@ -9,6 +9,9 @@
 #ifndef HSFBase_h
 #define HSFBase_h
 
+/* Config */
+//解释一下：因为是放在pod里，所以需要引用一下，不然会报错
+#import "HSFConfig.h"
 
 #import "HSFBaseNavC.h"
 #import "HSFBaseVC.h"
