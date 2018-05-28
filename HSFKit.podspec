@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HSFKit"
-  s.version      = "1.1.9"
+  s.version      = "1.2.0"
   s.ios.deployment_target = '8.0'
   s.summary      = "这是一个帮助你迅速搭建项目框架的库"
   s.homepage     = "https://github.com/HSFAqi/HSFKit"
@@ -18,19 +18,25 @@ Pod::Spec.new do |s|
   s.subspec 'HSFBase' do |hsfbase|
     hsfbase.source_files = 'HSFKit/HSFBase/*.{h,m}'
     hsfbase.public_header_files = 'HSFKit/HSFBase/HSFBase.h'
+    s.dependency "XHToast"
+    s.dependency "SVProgressHUD"
+    s.dependency "HSFKit/HSFConfig"
   end
 
   s.subspec 'HSFCategory' do |hsfcategory|
     hsfcategory.source_files = 'HSFKit/HSFCategory/HSFCategory.h'
     hsfcategory.public_header_files = 'HSFKit/HSFCategory/HSFCategory.h'
+    hsfcategory.frameworks = 'UIKit' , 'Foundation'
 
       hsfcategory.subspec 'NSFoundation' do |nsfoundation|
       nsfoundation.source_files = 'HSFKit/HSFCategory/NSFoundation/HSFNSFoundation.h'
       nsfoundation.public_header_files = 'HSFKit/HSFCategory/NSFoundation/HSFNSFoundation.h'
-
+      hsfcategory.frameworks = 'UIKit' , 'Foundation'
+ 
 	nsfoundation.subspec 'NSString' do |nsstring|
         nsstring.source_files = 'HSFKit/HSFCategory/NSFoundation/NSString/*.{h,m}'
         nsstring.public_header_files = 'HSFKit/HSFCategory/NSFoundation/NSString/*.h'
+	nsstring.frameworks = 'UIKit' , 'Foundation'
         end
 
       end
@@ -38,31 +44,37 @@ Pod::Spec.new do |s|
       hsfcategory.subspec 'UIKit' do |uikit|
       uikit.source_files = 'HSFKit/HSFCategory/UIKit/HSFUIKit.h'
       uikit.public_header_files = 'HSFKit/HSFCategory/UIKit/HSFUIKit.h'
+      uikit.frameworks = 'UIKit' , 'Foundation'
 
         uikit.subspec 'UIButton' do |uibutton|
         uibutton.source_files = 'HSFKit/HSFCategory/UIKit/UIButton/*.{h,m}'
         uibutton.public_header_files = 'HSFKit/HSFCategory/UIKit/UIButton/*.h'
-        end
+        uibutton.frameworks = 'UIKit' , 'Foundation'
+	end
 
         uikit.subspec 'UIControl' do |uicontrol|
         uicontrol.source_files = 'HSFKit/HSFCategory/UIKit/UIControl/*.{h,m}'
         uicontrol.public_header_files = 'HSFKit/HSFCategory/UIKit/UIControl/*.h'
-        end
+        uicontrol.frameworks = 'UIKit' , 'Foundation'
+	end
 
         uikit.subspec 'UIImage' do |uiimage|
         uiimage.source_files = 'HSFKit/HSFCategory/UIKit/UIImage/*.{h,m}'
         uiimage.public_header_files = 'HSFKit/HSFCategory/UIKit/UIImage/*.h'
-        end
+        uiimage.frameworks = 'UIKit' , 'Foundation'
+	end
 
         uikit.subspec 'UINavigationController' do |uinavigationcontroller|
         uinavigationcontroller.source_files = 'HSFKit/HSFCategory/UIKit/UINavigationController/*.{h,m}'
         uinavigationcontroller.public_header_files = 'HSFKit/HSFCategory/UIKit/UINavigationController/*.h'
-        end
+	uinavigationcontroller.frameworks = 'UIKit' , 'Foundation'        
+	end
 
         uikit.subspec 'UIView' do |uiview|
         uiview.source_files = 'HSFKit/HSFCategory/UIKit/UIView/*.{h,m}'
         uiview.public_header_files = 'HSFKit/HSFCategory/UIKit/UIView/*.h'
-        end
+        uiview.frameworks = 'UIKit' , 'Foundation'
+	end
       end
   end
 
