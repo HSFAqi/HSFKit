@@ -1,13 +1,14 @@
 //
-//  HSFKit.h
+//  HSFKitHeader.h
 //  HSFKitDemo
 //
 //  Created by 黄山锋 on 2018/5/28.
 //  Copyright © 2018年 黄山锋. All rights reserved.
 //
 
-#ifndef HSFKit_h
-#define HSFKit_h
+#ifndef HSFKitHeader_h
+#define HSFKitHeader_h
+
 
 /* HSFConfig */
 #import "HSFConfig.h"
@@ -20,4 +21,5 @@
 
 
 
-#endif /* HSFKit_h */
+
+#endif /* HSFKitHeader_h */

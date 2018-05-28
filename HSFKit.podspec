@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HSFKit"
-  s.version      = "1.2.3"
+  s.version      = "1.2.4"
   s.ios.deployment_target = '8.0'
   s.summary      = "这是一个帮助你迅速搭建项目框架的库"
   s.homepage     = "https://github.com/HSFAqi/HSFKit"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/HSFAqi/HSFKit.git', :tag => s.version}
   s.requires_arc = true
   s.source_files = 'HSFKit/*'
-  #s.public_header_files = 'HSFKit/HSFKit.h'
+  s.public_header_files = 'HSFKit/HSFKitHeader.h'
 
   s.dependency "XHToast"
   s.dependency "SVProgressHUD" 

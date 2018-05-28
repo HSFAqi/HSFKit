@@ -83,9 +83,9 @@
 		51A126E820BB91EA0070F3F6 /* UIView+DCAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCAnimationKit.h"; sourceTree = "<group>"; };
 		51A126E920BB91EA0070F3F6 /* UIView+Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner.h"; sourceTree = "<group>"; };
 		51A126EA20BB91EA0070F3F6 /* UIView+screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+screenshot.m"; sourceTree = "<group>"; };
-		51A126F220BB9AD10070F3F6 /* HSFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFKit.h; sourceTree = "<group>"; };
 		51A126F320BBA54E0070F3F6 /* HSFNSFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFNSFoundation.h; sourceTree = "<group>"; };
 		51A126F420BBA5790070F3F6 /* HSFUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFUIKit.h; sourceTree = "<group>"; };
+		51A126F620BBCECD0070F3F6 /* HSFKitHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSFKitHeader.h; sourceTree = "<group>"; };
 		51F451EB20B8D561006C7937 /* HSFKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSFKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F451EE20B8D561006C7937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51F451EF20B8D561006C7937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 				51F451EE20B8D561006C7937 /* AppDelegate.h */,
 				51F451EF20B8D561006C7937 /* AppDelegate.m */,
 				51F4522920B8D6ED006C7937 /* HSFKitPCH.pch */,
-				51A126F220BB9AD10070F3F6 /* HSFKit.h */,
+				51A126F620BBCECD0070F3F6 /* HSFKitHeader.h */,
 				51F4529920BA7043006C7937 /* HSFCategory */,
 				51F4527520B8E7F3006C7937 /* HSFBase */,
 				51F4522020B8D589006C7937 /* HSFConfig */,
