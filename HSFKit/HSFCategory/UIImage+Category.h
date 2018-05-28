@@ -45,11 +45,11 @@
                           borderWidth:(CGFloat)borderWidth
                           borderColor:(UIColor *)borderColor;
 
-//图片向左90度
-- (UIImage *)imageByRotateLeft90;
+////图片向左90度
+//- (UIImage *)imageByRotateLeft90;
 
-//图片向右90度
-- (UIImage *)imageByRotateRight90;
+////图片向右90度
+//- (UIImage *)imageByRotateRight90;
 
 //图片转180度
 - (UIImage *)imageByRotate180;

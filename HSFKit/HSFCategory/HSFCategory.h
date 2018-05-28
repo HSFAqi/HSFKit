@@ -11,11 +11,35 @@
 
 
 /* UIKit */
-#import "HSFUIKit.h"
+//UIView
+#import "UIView+addToWindow.h"
+#import "UIView+Corner.h"
+#import "UIView+DCAnimationKit.h"
+#import "UIView+Extension.h"
+#import "UIView+flag.h"
+#import "UIView+screenshot.h"
+#import "UIView+Shaking.h"
+//UIImage
+#import "UIImage+Category.h"
+#import "UIImage+HSFgif.h"
+#import "UIImage+Mask.h"
+#import "UIImage+VideoImage.h"
+//UINavigationController
+#import "UINavigationController+FDFullscreenPopGesture.h"
+//UIControl
+#import "UIControl+recurClick.h"
+//UIButton
+#import "UIButton+enlargeClickRect.h"
+#import "UIButton+Layout.h"
 
 
 /* NSFoundation */
-#import "HSFNSFoundation.h"
+//NSString
+#import "NSString+DisplayTime.h"
+#import "NSString+Distance.h"
+#import "NSString+MD5.h"
+#import "NSString+MusicTime.h"
+#import "NSString+Predicate.h"
 
 
 

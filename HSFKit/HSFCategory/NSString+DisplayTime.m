@@ -44,11 +44,11 @@
     }
     else if ((temp = timeInterval/3600/24)==1)
     {
-        result = [NSString stringWithFormat:@"昨天%ld时",(long)referenceHour];
+        result = [NSString stringWithFormat:@"昨天%ld时",referenceHour];
     }
     else if ((temp = timeInterval/3600/24)==2)
     {
-        result = [NSString stringWithFormat:@"前天%ld时",(long)referenceHour];
+        result = [NSString stringWithFormat:@"前天%ld时",referenceHour];
     }
     
     else if((temp = timeInterval/3600/24) <31){
@@ -78,7 +78,7 @@
     NSInteger referenceMonth =referenceComponents.month;
     NSInteger referenceDay   =referenceComponents.day;
     
-    return [NSString stringWithFormat:@"%ld年%ld月%ld日",referenceYear,(long)referenceMonth,(long)referenceDay];
+    return [NSString stringWithFormat:@"%ld年%ld月%ld日",referenceYear,referenceMonth,referenceDay];
 }
 
 
