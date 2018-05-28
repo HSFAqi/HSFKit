@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HSFKit"
-  s.version      = "1.1.8"
+  s.version      = "1.1.9"
   s.ios.deployment_target = '8.0'
   s.summary      = "这是一个帮助你迅速搭建项目框架的库"
   s.homepage     = "https://github.com/HSFAqi/HSFKit"
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
     hsfcategory.public_header_files = 'HSFKit/HSFCategory/HSFCategory.h'
 
       hsfcategory.subspec 'NSFoundation' do |nsfoundation|
-      nsfoundation.source_files = 'HSFKit/HSFCategory/HSFNSFoundation.h'
-      nsfoundation.public_header_files = 'HSFKit/HSFCategory/HSFNSFoundation.h'
+      nsfoundation.source_files = 'HSFKit/HSFCategory/NSFoundation/HSFNSFoundation.h'
+      nsfoundation.public_header_files = 'HSFKit/HSFCategory/NSFoundation/HSFNSFoundation.h'
 
 	nsfoundation.subspec 'NSString' do |nsstring|
         nsstring.source_files = 'HSFKit/HSFCategory/NSFoundation/NSString/*.{h,m}'
@@ -36,8 +36,8 @@ Pod::Spec.new do |s|
       end
 
       hsfcategory.subspec 'UIKit' do |uikit|
-      uikit.source_files = 'HSFKit/HSFCategory/HSFUIKit.h'
-      uikit.public_header_files = 'HSFKit/HSFCategory/HSFUIKit.h'
+      uikit.source_files = 'HSFKit/HSFCategory/UIKit/HSFUIKit.h'
+      uikit.public_header_files = 'HSFKit/HSFCategory/UIKit/HSFUIKit.h'
 
         uikit.subspec 'UIButton' do |uibutton|
         uibutton.source_files = 'HSFKit/HSFCategory/UIKit/UIButton/*.{h,m}'
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'HSFConfig' do |hsfconfig|
     hsfconfig.source_files = 'HSFKit/HSFConfig/*.{h,m}'
-    hsfconfig.public_header_files = 'HSFKit/HSFConfig/HSFBase.h'
+    hsfconfig.public_header_files = 'HSFKit/HSFConfig/HSFConfig.h'
   end
 
 
