@@ -11,8 +11,12 @@
 
 
 /* NSString */
+#import "NSString+DisplayTime.h"
+#import "NSString+Distance.h"
+#import "NSString+MD5.h"
+#import "NSString+MusicTime.h"
 #import "NSString+Predicate.h"
-#import "NSString+Size.h"
+
 
 
 #endif /* HSFNSFoundation_h */

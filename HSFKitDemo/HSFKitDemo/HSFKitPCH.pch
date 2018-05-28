@@ -10,7 +10,7 @@
 #define HSFKitPCH_pch
 
 #ifdef __OBJC__
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 
 ///* Config */
 //#import "HSFConfig.h"
