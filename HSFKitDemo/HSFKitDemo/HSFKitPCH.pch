@@ -10,14 +10,23 @@
 #define HSFKitPCH_pch
 
 #ifdef __OBJC__
-//#import <UIKit/UIKit.h>
 
-///* Config */
-//#import "HSFConfig.h"
-//
-///* Base */
-//#import "HSFBase.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
+
+
+/* HSFConfig */
+#import "HSFConfig.h"
+
+/* HSFBase */
+#import "HSFBase.h"
+
+/* HSFCategory */
+#import "HSFCategory.h"
+
+/* HSFTool */
+#import "HSFTool.h"
 
 
 #endif

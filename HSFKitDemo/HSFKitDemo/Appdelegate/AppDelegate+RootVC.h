@@ -1,0 +1,16 @@
+//
+//  AppDelegate+RootVC.h
+//  ZMW
+//
+//  Created by 黄山锋 on 2018/3/22.
+//  Copyright © 2018年 黄山锋. All rights reserved.
+//
+
+#import "AppDelegate.h"
+
+@interface AppDelegate (RootVC)<UITabBarControllerDelegate, CYLTabBarControllerDelegate>
+
+/* 设置主窗口,并设置根控制器 */
+-(void)setUpRootVC;
+
+@end

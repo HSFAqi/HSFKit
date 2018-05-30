@@ -21,5 +21,65 @@ target 'HSFKitDemo' do
   
   pod 'SVProgressHUD'#HUD
   pod 'XHToast'#文本小提示HUD
+  pod 'AFNetworking'#网络请求
+  pod 'BANetManager'#网络请求框架
+  pod 'TOWebViewController'#网页
+  pod 'BGFMDB'#数据存储
+  pod 'MJRefresh'#刷新
+  pod 'SDWebImage'#图片加载
+  pod 'YYCategories'#类别
+  pod 'YYCache'#缓存
+  pod 'YYModel'#模型
+  pod 'YYText'
+  pod 'Masonry'#布局
+  pod 'IQKeyboardManager'#键盘
+  pod 'SDCycleScrollView'#轮播图
+  pod 'TYCyclePagerView'#banner
+  pod 'UITextView-WZB'#一个强大的UITextView分类，三大功能，让系统TextView自带placeholder属性、自动高度、支持输入图片
+  pod 'Qiniu'#上传七牛云
+  pod 'PYSearch'#搜索页
+  pod 'BRPickerView'#选择器
+  pod 'TYAlertController'#提示框
+  pod 'WRNavigationBar'#超简单！！！ 一行代码设置状态栏、导航栏按钮、标题、颜色、透明度，移动等
+  pod 'PPNumberButton'#商品计数按钮
+  pod 'HCSStarRatingView'#星星评分
+  pod 'TXScrollLabelView'#上下滚动广告
+  pod 'FTPopOverMenu'#菜单
+  #图片视频浏览器
+  pod 'ReactiveCocoa', '2.3.1'
+  pod "MWPhotoBrowser", :podspec =>'https://raw.githubusercontent.com/moinku07/MWPhotoBrowser/master/MWPhotoBrowser.podspec'
+  pod 'TZImagePickerController'#本地图片视频选择
+  pod 'TOCropViewController'#图片裁剪
+  pod 'XHLaunchAd'#启动页广告
+  pod 'EAIntroView'#引导页
+  pod 'CYLTabBarController'#tabbar
+  pod 'LYEmptyView'#空内容
+  pod 'NSDate+TimeAgo'#时间
+  
+  
+  #====统计与工具====#
+  # 崩溃日志
+  pod 'Bugly'
+  
+  # 友盟
+  pod 'UMCCommon'#基础库
+  pod 'UMCSecurityPlugins'#为安全组件，不需要开发者显式调用，为开发者提供安全的数据环境，能有效的防止刷量和反作弊等行为，属于可选项，如果对App的数据安全性要求不高的话，可以去掉此pod
+  pod 'UMCAnalytics'#统计 SDK
+  pod 'UMCErrorCatch'#错误分析 SDK
+  # U-Share SDK UI模块（分享面板，建议添加）
+  pod 'UMCShare/UI'
+  # 集成微信(精简版0.2M)
+  pod 'UMCShare/Social/ReducedWeChat'
+  # 集成QQ/QZone/TIM(精简版0.5M)
+  pod 'UMCShare/Social/ReducedQQ'
+  # 集成新浪微博(精简版1M)
+  pod 'UMCShare/Social/ReducedSina'
+  
+  #去App Store评分
+  pod 'Appirater'
+  
+  #app版本更新提示
+  pod 'Harpy'
+  
 
 end

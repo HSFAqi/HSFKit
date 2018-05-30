@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btn;
 
 @end
 
@@ -17,8 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    self.view.backgroundColor = k_themeColor;
+
+    
+    
 }
+
+
+- (IBAction)btnACTION:(UIButton *)sender {
+    [self.btn jk_showIndicator];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.btn jk_hideIndicator];
+    });
+}
+
 
 
 - (void)didReceiveMemoryWarning {

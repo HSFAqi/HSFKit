@@ -17,8 +17,16 @@
 /* 注释
  系统相关
  */
+/* AppID */
+#define kAppID @"1330868654"
+//app的名称
+#define kAppName [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleDisplayName"]
+//当前app版本
+#define kAPP_Version @"app_version"
 //APP版本号
 #define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+//APP bulid版本
+#define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"]
 //系统版本号
 #define kSystemVersion [[UIDevice currentDevice] systemVersion]
 //获取当前语言

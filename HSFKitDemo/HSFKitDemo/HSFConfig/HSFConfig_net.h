@@ -9,7 +9,7 @@
 #ifndef HSFConfig_net_h
 #define HSFConfig_net_h
 
-
+#import <Foundation/Foundation.h>
 //>>>>>>>>>>>>>>>>>>>>
 //>>>   网络请求     >>>
 //>>>>>>>>>>>>>>>>>>>>
