@@ -64,6 +64,8 @@
 #import "ZJScrollPageView.h"
 #import "ZJScrollPageViewDelegate.h"
 
+/* 颜色渐变 */
+#import "WHGradientHelper.h"
 
 
 #endif /* HSFTool_h */

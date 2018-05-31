@@ -114,6 +114,7 @@
 		51A1278B20BC04910070F3F6 /* HSFNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1278420BC04910070F3F6 /* HSFNetManager.m */; };
 		51A1278C20BC04910070F3F6 /* HSFApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1278520BC04910070F3F6 /* HSFApiRequest.m */; };
 		51A1278D20BC04910070F3F6 /* HSFApiRequest+Api.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A1278920BC04910070F3F6 /* HSFApiRequest+Api.m */; };
+		51AFBFA720BF8CB50077D7B1 /* WHGradientHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AFBFA520BF8CB40077D7B1 /* WHGradientHelper.m */; };
 		51D437BB20BD02DE00CB07AD /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D437B520BD02DE00CB07AD /* TableViewAnimationKit.m */; };
 		51D437BC20BD02DE00CB07AD /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D437BA20BD02DE00CB07AD /* UITableView+XSAnimationKit.m */; };
 		51D437C220BD0F3600CB07AD /* HSFPlusBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D437BE20BD0F3500CB07AD /* HSFPlusBtn.m */; };
@@ -407,6 +408,8 @@
 		51A1278720BC04910070F3F6 /* HSFNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFNetManager.h; sourceTree = "<group>"; };
 		51A1278820BC04910070F3F6 /* HSFApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSFApiRequest.h; sourceTree = "<group>"; };
 		51A1278920BC04910070F3F6 /* HSFApiRequest+Api.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HSFApiRequest+Api.m"; sourceTree = "<group>"; };
+		51AFBFA520BF8CB40077D7B1 /* WHGradientHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGradientHelper.m; sourceTree = "<group>"; };
+		51AFBFA620BF8CB40077D7B1 /* WHGradientHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGradientHelper.h; sourceTree = "<group>"; };
 		51D437B520BD02DE00CB07AD /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
 		51D437B620BD02DE00CB07AD /* TableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
 		51D437B720BD02DE00CB07AD /* UITableView+XSAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XSAnimationKit.h"; sourceTree = "<group>"; };
@@ -739,6 +742,7 @@
 			isa = PBXGroup;
 			children = (
 				51A1270020BBFDF70070F3F6 /* HSFTool.h */,
+				51AFBFA420BF8CB40077D7B1 /* WHGradientHelper(颜色渐变) */,
 				51D437B420BD02DE00CB07AD /* TableViewAnimationKit(cell动画) */,
 				51A1278020BC04910070F3F6 /* HSFWeb(网页) */,
 				51A1278320BC04910070F3F6 /* NetWorking(网络请求) */,
@@ -992,6 +996,15 @@
 				51A1278420BC04910070F3F6 /* HSFNetManager.m */,
 			);
 			path = "NetWorking(网络请求)";
+			sourceTree = "<group>";
+		};
+		51AFBFA420BF8CB40077D7B1 /* WHGradientHelper(颜色渐变) */ = {
+			isa = PBXGroup;
+			children = (
+				51AFBFA620BF8CB40077D7B1 /* WHGradientHelper.h */,
+				51AFBFA520BF8CB40077D7B1 /* WHGradientHelper.m */,
+			);
+			path = "WHGradientHelper(颜色渐变)";
 			sourceTree = "<group>";
 		};
 		51D437B420BD02DE00CB07AD /* TableViewAnimationKit(cell动画) */ = {
@@ -1617,6 +1630,7 @@
 				51A126EC20BB91EA0070F3F6 /* UIView+Corner.m in Sources */,
 				513A88BD20BE5AF900EA1C94 /* NSString+JKRemoveEmoji.m in Sources */,
 				51A1277A20BC04380070F3F6 /* UIViewController+ZJScrollPageController.m in Sources */,
+				51AFBFA720BF8CB50077D7B1 /* WHGradientHelper.m in Sources */,
 				51F4528720B8E819006C7937 /* HSFBaseTableVC.m in Sources */,
 				51A1276120BC03850070F3F6 /* XPModalTransitioningDelegate.m in Sources */,
 				513A88BF20BE5AF900EA1C94 /* NSString+JKContains.m in Sources */,
